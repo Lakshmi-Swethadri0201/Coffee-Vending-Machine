@@ -1,3 +1,52 @@
+Fully Automatic Beverage Vending Machine
+
+This program controls the process of buying a beverage from a vending Machine.
+
+#Features implemented
+
+1- The vending machine is designed to for an user to 
+   • Select a beverage of his/her choice.
+   • Provides option to add condiments like Milk and Sugar for the beverage selected.
+   • For each extra unit, additional cost is shown and calculated.
+   • Calculates total beverage price including additional condiments if added.
+   • User can pay the total price and get back the change if there is a difference amount.   
+
+2- The vending machine program is designed to hold all brew functions seperately for each beverage.(Implemented brew as an interface)
+
+3- The project is designed and developed as an Object-oriented model of the vending machine, simulating the functionality, using OO analysis and techniques.
+
+4- No specific design pattern is used as such.
+
+5- This program can be extended to add any new beverage using the same built in brew behavior. And can implement the common functionalities from a parent beverage class.
+
+6- Used method and classes to reduce duplicate codes.
+	• Used Inheritance: Designed Beverage as a parent class, and all other beverages such as Espresso, black tea as child classes.
+	 Because of which functionalities need not be repeated in the child classes.
+	• Used Interface: Designed brew behavior as an interface, such that each beverage can implement this functionality in its own way.
+	• Created different packages and corresponding classes to give a clear modularity in the application.	 
+
+7- The inserting coins is not built as an application, it just accepts any money numbers and returns change.
+
+#Assumptions
+
+1- All beverages are hot beverages. 
+
+
+#Future Implementation:
+
+1- The project can have more functionalty for hot or cold beverage. 
+2- Can have additional condiments
+3- Can implement functionalities to check inventory and order chain.
+
+
+Getting Started
+This project built in a Java Maven Template and it use Apache Maven to compile and run.
+
+You need to install Apache Maven (https://maven.apache.org/) on your system.
+
+Type on the command line:
+
+
 # Project Template
 
 This is a Java Maven Project Template
